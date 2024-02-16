@@ -38,7 +38,7 @@ const ProductListItem = () => {
 									fill="none"
 									viewBox="0 0 24 24"
 									stroke-width="1.5"
-									stroke="currentColor"
+									stroke="#392A48"
 									class="h-5 w-5"
 								>
 									<path
