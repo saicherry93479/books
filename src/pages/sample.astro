@@ -1,0 +1,19 @@
+---
+import itemOne from '../../public/mobileHeroImage.webp';
+import itemTwo from '../../public/mobileHeroImageTwo.webp';
+---
+<div class="overflow-x-scroll" style="scroll-snap-type: x mandatory;">
+	<div class="flex">
+	  <div class="w-full h-[200px] flex-none" style="scroll-snap-align: start;">
+		<img src={itemOne.src} alt="Product 1" class="w-full h-full object-cover">
+	  </div>
+	  <div class="w-full h-[200px] flex-none" style="scroll-snap-align: start;">
+		<img src={itemTwo.src} alt="Product 2" class="w-full h-full object-cover">
+	  </div>
+	  <div class="w-full h-[200px] flex-none" style="scroll-snap-align: start;">
+		<img src={itemOne.src} alt="Product 1" class="w-full h-full object-cover">
+	  </div>
+	  <!-- Add more product images as needed -->
+	</div>
+  </div>
+  

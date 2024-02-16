@@ -1,0 +1,24 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Menu from '../components/Menu.astro'
+import CartMenu from '../components/CartMenu.astro'
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+<body class="w-full relative">
+    <CartMenu/>
+	<Menu/>
+	<Header />
+	<slot />
+	<Footer />
+</body>
+</html>
+
+
