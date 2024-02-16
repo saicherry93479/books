@@ -10,7 +10,7 @@ const FaqNote = ({ question, answer, border = true }) => {
 			<div className="flex items-center justify-between py-[10px] ">
 				<p className="font-lora text-[14px] font-bold text-white  md:text-[18px] ">{question}</p>
 				<div
-					className={` flex h-[30px] w-[30px] cursor-pointer items-center justify-center rounded-full bg-[#ffffff15] ${open ? 'bg-white' : ''} `}
+					className={` flex h-[30px] w-[30px] cursor-pointer items-center justify-center rounded-full bg-[#ffffff15] ${open?'h-[50px] md:h-[40px]':'h-0'} `}
 					onClick={() => setOpen(!open)}
 				>
 					<Arrow color={open ? '#25693f' : 'white'} rotate={open ? true : false} />
