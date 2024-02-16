@@ -10,7 +10,7 @@ const ProductListItem = () => {
 	};
 	return (
 		<>
-			<div class="grid z-1 grid-cols-2 gap-4 md:grid-cols-2 lg:grid-cols-4">
+			<div class="grid z-1 grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
 				{[0,1,2,3].map((data, index) => (
 					<div className="group relative cursor-pointer bg-[#1c1c22] rounded-md p-4 ">
 						<div className="relative overflow-hidden rounded-t-md">
